@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML test case -->
+<LectureNote course="CSE681">
+  <title>XML Example #1</title>
+  <reference>
+    <title>Programming Microsoft .Net</title>
+    <author>Jeff Prosise <note Company="Wintellect" Street='Westcott' zipcode='13210'></note>
+	<note Company="SoftechSol" Street='Lancaster' zipcode='13218'><comp></comp></note>
+	<note Street="Westcott" zipcode="13210"></note>
+	<note Street="Lacaster" zipcode="13218"></note>
+	<note Street="Euclid" zipcode="13258"></note>
+	</author>
+    <publisher>Microsoft Press</publisher>
+    <date>2002</date>
+    <page>608</page>
+  </reference>
+  <title>Sample Element</title>
+  <title>Sample Element1</title>
+  <title>Sample Element4</title>
+  <textelement Company='Wintellect'/>
+  <comment>Description of PCDATA</comment>
+</LectureNote>
